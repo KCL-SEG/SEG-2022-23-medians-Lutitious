@@ -10,7 +10,7 @@ while True:
             median = (numbers[len(numbers)//2] + numbers[len(numbers)//2 - 1])/2
         else:
             median = numbers[len(numbers)//2]
-        print("The median is: ", median)
+        print(median)
     except ValueError:
         print("Some input could not be converted to a number!")
     else:
